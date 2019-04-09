@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "itg", "..\itg\itg.sqlproj", "{93DF1F9A-A60C-4159-BE51-2CC95ADAC3CB}"
-EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "dev", "..\dev\dev.sqlproj", "{D24B27DF-DE50-4BC5-BCE2-5FEB27EC5F37}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "dev", "Database4\dev\dev.sqlproj", "{D24B27DF-DE50-4BC5-BCE2-5FEB27EC5F37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,12 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{93DF1F9A-A60C-4159-BE51-2CC95ADAC3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93DF1F9A-A60C-4159-BE51-2CC95ADAC3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93DF1F9A-A60C-4159-BE51-2CC95ADAC3CB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{93DF1F9A-A60C-4159-BE51-2CC95ADAC3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93DF1F9A-A60C-4159-BE51-2CC95ADAC3CB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93DF1F9A-A60C-4159-BE51-2CC95ADAC3CB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{D24B27DF-DE50-4BC5-BCE2-5FEB27EC5F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D24B27DF-DE50-4BC5-BCE2-5FEB27EC5F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D24B27DF-DE50-4BC5-BCE2-5FEB27EC5F37}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
